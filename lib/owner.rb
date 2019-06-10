@@ -68,9 +68,7 @@ class Owner
   end 
   
   def list_pets 
-    pets.each do |pet, arr|
-      arr.each do |animal| 
-        puts "I have animal.length 
+    puts "I have #{pets[:fishes].count} fishes, #{pets[:"
   end 
   
 end
